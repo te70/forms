@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+	<h3>Registration Form</h3>
+
+		<form id="registration" action="process.php" method="POST">
+			<label for="first_name">First name</label><br/>
+
+			<input type="text" name="first_name" required="true" placeholder="John"/><br/>
+
+			<label for="last_name">Last name</label><br/>
+			<input type="text" name="last_name" required="true" placeholder="doe"/><br/>
+
+			<label for="email">Email</label><br/>
+			<input type="email" name="email" placeholder="example@domain.com" required="true"/><br/>
+
+			<label for="password">Password</label><br/>
+			<input type="password" name="password" required="true"/><br/>
+
+			<label for="gender">Gender</label><br/>
+			<input type="radio" name="gender" value="F" checked="true"/>Female <br/>
+			<input type="radio" name="gender" value="M"/>Male<br/>
+
+
+			<label for="date">Date of birth</label><br/>
+			<input type="date" name="date" required="true"/><br/>
+
+			<label for="year">School start year</label><br/>
+
+			<input type="number" name="year" required="true" min="2012" max="2022" /><br/>
+
+			
+
+
+			<br/><br/>
+			<input type="submit" value="save"/>
+
+			<br/><br/>
+
+
+
+
+
+
+
+
+
+	</form>
+</body>
+</html>
